@@ -59,7 +59,8 @@ button.btn-navbar:active,button.btn-navbar:focus{
 .arrow_1{
     position:fixed;
     bottom: 20px;
-    left: calc(100vw/2);
+    left: 50%;
+    transform: translate(-50%, 0);
     transition: all .2s ease-in;
 }
 .arrow_1:hover{
