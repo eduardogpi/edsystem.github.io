@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+button.btn-navbar{
+    border:none;
+    outline:none;
+}
+button.btn-navbar:active,button.btn-navbar:focus{
+    box-shadow: none;
+}
+.navbar .nav-link {
+    font-size: 18px;
+    margin-right: 49px;
+    color: #455A64;
+}
+.navbar .nav-link:hover{
+    color: #263238;
+}
+.navbar .nav-link.active{
+    font-weight: 600;
+    color: #263238;
+}
+.hero-header{
+    color: #263238;
+    font-weight: 800;
+    font-size: 64px;
+}
+.btn-portfolio{
+    font-size: 18px;
+    background-color: #0982B9;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 0.250em;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+.btn-portfolio:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+.btn-contato{
+    font-size: 18px;
+    background-color: #E03150;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 0.250em;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+.btn-contato:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+.arrow_1{
+    position: absolute;
+    bottom: 20px;
+    left: calc(100vw/2);
+    transition: all .2s ease-in;
+}
+.arrow_1:hover{
+    bottom:10px;
+}
+.hero > div{
+    margin-top: 5rem;
+}
