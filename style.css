@@ -136,6 +136,12 @@ button.btn-navbar:focus {
     gap: 20px;
 }
 
+.contato-header {
+    color: #263238;
+    font-weight: 800;
+    font-size: 40px;
+}
+
 @media (max-width: 768px) {
     .hero {
         height: max-content;
